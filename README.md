@@ -8,6 +8,22 @@ The system allows users to submit platform feedback, automatically detects the e
 
 ---
 
+## Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Signup Page
+![Signup](screenshots/signup.png)
+
+### Feedback Page
+![Feedback](screenshots/feedback.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
 ## Tech Stack
 
 ### Frontend
@@ -18,44 +34,8 @@ The system allows users to submit platform feedback, automatically detects the e
 ### Backend
 - Flask (Python)
 - SQLite Database
-- REST API Architecture
 
 ### Machine Learning
 - TF-IDF Vectorization
-- Logistic Regression Classifier
+- Logistic Regression
 - Scikit-learn
-- Model persistence using Pickle
-
----
-
-## Features
-
-### User Module
-- User Signup with validation
-- Secure Login (password hashing)
-- Feedback Submission (rating + comment)
-- Real-time Emotion Detection via ML model
-
-### Admin Module
-- Static Admin Login (admin / admin123)
-- View all user feedback
-- Emotion-wise summary count
-- Total feedback analytics
-
----
-
-## Application Workflow
-
-1. User registers an account
-2. User logs in
-3. User submits feedback
-4. Backend processes feedback through trained ML model
-5. Emotion label is stored in SQLite database
-6. Admin dashboard displays feedback and emotion summary
-
----
-
-## Machine Learning Pipeline
-
-Emotion detection process:
-
