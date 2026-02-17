@@ -39,3 +39,60 @@ The system allows users to submit platform feedback, automatically detects the e
 - TF-IDF Vectorization
 - Logistic Regression
 - Scikit-learn
+
+
+## How to Run the Application
+
+### Prerequisites
+
+- Python 3.9+
+- Node.js 16+
+- pip
+- npm
+
+---
+
+## How to Run the Application
+
+### Prerequisites
+- Python 3.9+
+- Node.js 16+
+- pip
+- npm
+
+---
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python backend.py
+```
+
+Backend runs at:
+
+```
+http://127.0.0.1:5000
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs at:
+
+```
+http://localhost:3000
+```
+
+### Admin Credentials
+
+```
+Username: admin
+Password: admin123
+```
